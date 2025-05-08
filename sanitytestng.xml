@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="APIAutomationPrograms">
+
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <exclude name="smoke"></exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.example.lab05_testngAnnotations.API17_Groups">
+            </class>
+
+        </classes>
+    </test>
+</suite>
