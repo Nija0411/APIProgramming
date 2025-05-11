@@ -1,0 +1,7 @@
+1. POJO - Plain Old Java Object
+2. You can create POJO's in a 3 ways
+--> Manually, Using schema generator website, and AI
+
+-- AI is best way to generate the POJO it gives a simple and readable file you can use chatgpt for better POJO generation.
+-- It will reduce the time to generate it manually.
+
